@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.myowncard.MainActivity"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/happybirthday"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/wish"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_margin="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/from"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_margin="5dp" />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/day"
+            android:textSize="20sp"
+            android:fontFamily="cursive"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/month"
+            android:textSize="20sp"
+            android:fontFamily="cursive"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/year"
+            android:textSize="20sp"
+            android:fontFamily="cursive"
+            android:textColor="@android:color/holo_red_dark"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

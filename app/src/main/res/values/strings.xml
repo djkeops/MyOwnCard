@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">For You</string>
+    <string name="wish">Happy Birthday, Oana!</string>
+    <string name="from">Adrian</string>
+    <string name="day">24</string>
+    <string name="month">August</string>
+    <string name="year">2017</string>
+</resources>
